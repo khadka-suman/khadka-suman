@@ -22,6 +22,6 @@
 </p>      
   
 <p align='center'>  
-   <img align="center" src="https://github-profile-trophy.vercel.app/?username=chandan-g-bhagat&theme=juicyfresh&no-bg=true" alt="khadka-suman" />  
+   <img align="center" src="https://github-profile-trophy.vercel.app/?username=khadka-suman&theme=juicyfresh&no-bg=true" alt="khadka-suman" />  
 
 </p>
