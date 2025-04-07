@@ -1,31 +1,37 @@
-name: Update Commit Count
+name: Update Commit Counts in README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs once every day at midnight
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Run daily at midnight (UTC)
+  push:
+    branches:
+      - main  # Run the action whenever a push occurs on the main branch
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
 
 jobs:
-  update-commit-count:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Fetch commit count for all branches
-      run: |
-        for branch in $(git branch -r | grep -v '\->'); do
-            commit_count=$(git rev-list --count $branch)
-            echo "Branch: $branch, Commits: $commit_count" >> commit_counts.txt
-        done
+      - name: Fetch all branches
+        run: git fetch --all
 
-    - name: Update README
-      run: |
-        echo "### Commit Activity Across All Branches" >> README.md
-        cat commit_counts.txt >> README.md
-        git config --global user.name "GitHub Action"
-        git config --global user.email "actions@github.com"
-        git add README.md
-        git commit -m "Update commit counts"
-        git push
+      - name: Get commit counts for all branches
+        run: |
+          echo "## Commit Activity Across All Branches" > README.md
+          echo "Here are the commit counts from all branches of the repository:" >> README.md
+          for branch in $(git branch -r | grep -v '\->'); do
+              commit_count=$(git rev-list --count $branch)
+              echo "- **Branch: $branch, Commits: $commit_count**" >> README.md
+          done
+
+      - name: Commit and push changes to README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update commit counts in README"
+          git push origin main
