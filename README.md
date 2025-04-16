@@ -13,7 +13,7 @@
 
 ### 👋 About Me
 
-Heya! I'm **Suman Khadka**, a passionate and solution-driven **Software Developer** based in **Kathmandu, Nepal**.  
+Hi! I'm **Suman Khadka**, a passionate and solution-driven **Software Developer** based in **Kathmandu, Nepal**.  
 I'm a graduate of **Himalaya College of Engineering**, and currently a full-time professional working on impactful software products.
 
 I specialize in building **robust backend systems**, **scalable architectures**, and **domain-driven APIs** that serve real-world use cases across domains like **ERP** and **FinTech (Remittance)**.  
