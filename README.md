@@ -13,20 +13,28 @@
 
 ### 👋 About Me
 
-Heya! I'm **Suman Khadka**, a passionate and dedicated **Software Developer** based in **Kathmandu, Nepal**.  
-I graduated from **Himalaya College of Engineering**, and currently work as a full-time professional in software development.
+Heya! I'm **Suman Khadka**, a passionate and solution-driven **Software Developer** based in **Kathmandu, Nepal**.  
+I'm a graduate of **Himalaya College of Engineering**, and currently a full-time professional working on impactful software products.
 
-I love building scalable systems, designing backend APIs, and solving real-world problems using clean architecture.
+I specialize in building **robust backend systems**, **scalable architectures**, and **domain-driven APIs** that serve real-world use cases across domains like **ERP** and **FinTech (Remittance)**.  
+I value **clean code**, **modular design**, and **performance optimization**, ensuring systems are not only functional but also future-ready.
+
+My development approach embraces architectural principles like:
+- 🧱 **Clean Architecture**
+- 🧅 **Onion Architecture**
+- 🔀 **Layered Architecture**
+- ⚙️ **Microservices Architecture**
 
 ---
 
 ### 🧠 My Expertise
 
-- ⚙️ **.NET Framework / .NET Core**
-- 🗄️ **Relational Databases** – SQL Server & PostgreSQL
-- 🏗️ **ERP Systems** Development
-- 💸 **Remittance Systems**
-- 🧱 **System Design**, Clean Architecture, and Scalable APIs
+- ⚙️ **.NET Framework / .NET Core** – API-first backend development
+- 🗄️ **SQL Server & PostgreSQL** – Query optimization, stored procedures, indexing
+- 🏗️ **ERP System** Design & Customization
+- 💸 **Remittance & Financial Systems**
+- 🔌 **Integration** – Third-party APIs, Payment Gateways, Message Brokers
+- 🧰 **System Design & Architecture** – Scalable, Maintainable & Testable systems
 
 ---
 
@@ -50,5 +58,18 @@ I love building scalable systems, designing backend APIs, and solving real-world
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=khadka-suman&show_icons=true&theme=gruvbox&hide_border=true" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=khadka-suman&theme=gruvbox&hide_border=true" />
 </p>
+
+---
+
+### 🌐 Connect with Me
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/suman-khadka-104b15227/)  
+- 📂 [GitHub](https://github.com/khadka-suman)  
+- 📫 Email: **sumankhadka992@gmail.com**
+
+---
+
+🛠️ *Last updated: April 2025*  
+💡 *Thanks for visiting my profile! Feel free to connect or collaborate.*
 
 ---
